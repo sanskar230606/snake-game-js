@@ -13,7 +13,7 @@ let gameOverModal = document.querySelector(".game-over");
 let highScoreElement = document.querySelector(".infos .info #high-score");
 let scoreElement = document.querySelector(".infos .info #score");
 let timeElement = document.querySelector(".infos .info #time");
-highScore = localStorage.getItem("highScore").toString()||0;
+highScore = localStorage.getItem("highScore")||0;
 score = 0;
 time = `00:00`;
 
