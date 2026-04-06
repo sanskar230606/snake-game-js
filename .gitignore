@@ -1,0 +1,13 @@
+# SCSS source files and maps
+style.scss
+style.css.map
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
